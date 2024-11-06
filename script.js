@@ -1,8 +1,8 @@
 "use strict";
 
-let backgroundColor = "white";
+let backgroundColor = "blue";
 
-let fontColor = "blue";
+let fontColor = "black";
 
 backgroundColor = prompt("What color do you want to change the background to?");
 
@@ -10,4 +10,4 @@ console.log("You have chosen the color" + backgroundColor);
 
 document.body.style.background = backgroundColor;
 
-document.body.styleColor = fontColor 
+document.body.styleColor = fontColor;
